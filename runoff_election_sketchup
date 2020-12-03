@@ -1,0 +1,28 @@
+# quick sketch of program
+
+counts top votes
+#if noone has > 50% then
+
+#    drop lowest candidate or candidates if they tie lowest vote count
+#    (found by iteration of list of candidate structs)
+
+#for all structs with lowest candidate as their first
+ #   check their next index [i +1] and add that name or add to count
+
+   # recheck vote counts by iterating through candidate structs
+        # keep checking for >50
+
+
+      # if all candidates get zero votes then output a Tie
+
+
+    #possibly make voter structs? holding the candidate names?
+    #iterating via zero'th [i] and then checking adding [i+1]
+    #and add to a counter
+
+
+
+   **** assuming all voters enter all candidates in their vote
+    do not worry about voter writing 2/5 names
+
+    possible bool for elimination?
